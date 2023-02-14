@@ -28,19 +28,33 @@
   box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
   outline: 0;
 }
+p {
+  font-size: 16px;
+  text-align: justify;
+}
+p#first {
+  max-width: 800px;
+}
+.center {
+  margin: auto;
+  max-width: 800px;
+  border: none;
+  padding: 10px;
+}
 </style>
-
+<div class="center">
 <button class="button" role="button" onclick="window.location.href = 'index.html';">About</button>
 <button class="button" role="button" onclick="window.location.href = 'Research.html';">Research</button>
 <button class="button" role="button" onclick="window.location.href = 'Education.html';">Education</button>
 
 <body>
 	<h1>About</h1>	
-	<p>I am a Ph.D student about University-Wisconisn Madison. I marjor in population health science.</p>
+	<p id=first>I am a Ph.D student about University-Wisconisn Madison. I marjor in population health science.</p>
  <a href="https://www.linkedin.com/in/dian-luo-376650b6?trk=public_profile_browsemap">
   <img src="Photo/Linkedin.png" heigh="20px" width="20px">
  </a>
 </body>
+</div>
 </html>
 
 
